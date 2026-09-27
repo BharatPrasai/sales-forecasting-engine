@@ -10,6 +10,7 @@ Compares classical statistical econometric formulations (SARIMAX) against machin
 ---
 
 ## ?? Benchmark Performance (60-Day Out-of-Time Test)
+![Demand Planning Forecast](data/demand_planning_forecast.png)
 
 | Model Architecture | Features / Inputs | MAE | RMSE | WAPE (%) | Working Capital Impact (Safety Stock)* |
 | :--- | :--- | :--- | :--- | :--- | :--- |
