@@ -34,4 +34,14 @@ Compares classical statistical econometric formulations (SARIMAX) against machin
 - **data/**: Daily transactions and generated artifacts
 - **src/generate_data.py**: Trend, seasonality, and promotional event generator
 - **src/diagnostics.py**: ADF stationarity test and classical seasonal decomposition
-- **src/train_models.py**: Feature engineering, SARIMAX benchmark, and Random Forest training
+- **src/train_models.py**: Feature engineering, SARIMAX benchmark, and Random Forest training 
+---
+
+## 🚀 Production Scoring Service (FastAPI)
+
+The model is wrapped in an asynchronous REST service capable of real-time multi-step roll-forward forecasting and inventory parameter recalculations.
+
+### Run Locally
+
+```bash
+uvicorn src.api:app --reload --port 8000
